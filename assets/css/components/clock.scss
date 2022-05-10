@@ -1,0 +1,39 @@
+.clock {
+    &__time {
+        &__hour {
+            font-size: 50px;
+        }
+        &__colon {
+            font-size: 50px;
+            animation: colonBlink 2s infinite;
+        }
+        &__minutes {
+            font-size: 50px;
+        }
+        &__seconds {
+            font-size: 25px;
+        }
+    }
+    &__date {
+        &__dayname {
+
+        }
+        &__datename {
+
+        }
+    }
+
+    @keyframes colonBlink {
+        49% {
+            color: inherit;
+        }
+
+        50% {
+            color: transparent;
+        }
+
+        99% {
+            color: transparent;
+        }
+    }
+}

@@ -1,0 +1,11 @@
+@import './imports.scss';
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    color: $white;
+}
+
+html,
+body {
+    background-color: $dashboard-blue-dark;
+}
